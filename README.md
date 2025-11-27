@@ -3,7 +3,6 @@
 ***[汉语](README.zh.md)***
 
 [![License](https://img.shields.io/github/license/xixu-me/deeplx)](#-license)
-[![Deployment Status](https://img.shields.io/website?url=https://dplx.xi-xu.me/deepl&label=Online%20Service)](#-online-service)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange?logo=cloudflare)](#-self-deployment)
 
 Currently, the best serverless implementation of [DeepLX](https://github.com/OwO-Network/DeepLX), optimized for Cloudflare Workers. Through intelligent proxy endpoint rotation, advanced rate limiting algorithms, and circuit breaker mechanisms, it almost completely avoids HTTP 429 errors, providing higher request rate limits and lower network round-trip times than traditional translation APIs. **Now supports both DeepL and Google Translate services.**
@@ -169,7 +168,9 @@ graph TB
 
 ## 🌐 Online Service
 
-**Pre-deployed Instance**: `https://dplx.xi-xu.me`
+> **⚠️ Important Notice**: The pre-deployed instance has been temporarily suspended due to excessive requests. Please [self-deploy](#-self-deployment) to continue using the service.
+
+~~**Pre-deployed Instance**: `https://dplx.xi-xu.me`~~ (Temporarily Suspended)
 
 ## 📦 Quick Start
 
